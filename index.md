@@ -4,7 +4,16 @@ layout: default
 ---
 
 <div class="hero">
-  <img class="avatar" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Ali Hasnain Khowaja" />
+  <img
+  class="avatar"
+  src="{{ '/assets/img/profile-400.jpg' | relative_url }}"
+  srcset="{{ '/assets/img/profile-400.jpg' | relative_url }} 400w,
+          {{ '/assets/img/profile-800.jpg' | relative_url }} 800w"
+  sizes="(min-width: 900px) 200px, 160px"
+  alt="Ali Hasnain Khowaja"
+  loading="eager" decoding="async" fetchpriority="high"
+/>
+
   <div>
     <h1>Ali Hasnain Khowaja</h1>
     <div class="subtitle">Aerospace Engineer • Guidance, Navigation & Control</div>
