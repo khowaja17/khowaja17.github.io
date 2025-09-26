@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <!-- MathJax (simple, reliable) -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <!-- End MathJax -->
+
+  <style>
+    body{max-width:880px;margin:40px auto;padding:0 16px;line-height:1.6;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
+    nav a{margin-right:12px}
+    iframe{max-width:100%}
+    pre{overflow:auto}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/topics/' | relative_url }}">Topics</a>
+  </nav>
+  <main>{{ content }}</main>
+</body>
+</html>
