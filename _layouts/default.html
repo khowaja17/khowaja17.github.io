@@ -5,29 +5,32 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>{{ page.title }} | {{ site.title }}</title>
 
-  <!-- MathJax (simple, reliable) -->
+  <!-- MathJax for LaTeX -->
   <script>
-    window.MathJax = {
-      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] },
-      svg: { fontCache: 'global' }
-    };
+    window.MathJax = { tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']]}, svg:{fontCache:'global'} };
   </script>
-  <script id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-  <!-- End MathJax -->
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
-  <style>
-    body{max-width:880px;margin:40px auto;padding:0 16px;line-height:1.6;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;}
-    nav a{margin-right:12px}
-    iframe{max-width:100%}
-    pre{overflow:auto}
-  </style>
+  <!-- Icons (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <nav>
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/topics/' | relative_url }}">Topics</a>
-  </nav>
-  <main>{{ content }}</main>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="tabs">
+        <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+        <a href="{{ '/primer/' | relative_url }}" class="{% if page.url contains '/primer/' %}active{% endif %}">Engineering & Mathematics Primer</a>
+        <a href="{{ '/projects/' | relative_url }}" class="{% if page.url contains '/projects/' %}active{% endif %}">Projects</a>
+        <a href="{{ '/about/' | relative_url }}" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+      </nav>
+    </div>
+  </header>
+  <main class="content">{{ content }}</main>
+  <footer class="site-footer">
+    <small>© {{ "now" | date: "%Y" }} {{ site.title }}</small>
+  </footer>
 </body>
 </html>
