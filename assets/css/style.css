@@ -18,11 +18,11 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-appl
 .tabs a.active{background:var(--accent);color:#fff}
 .content{max-width:980px;margin:28px auto;padding:0 16px}
 .hero{
-  display:grid;grid-template-columns:140px 1fr;gap:18px;
+  display:grid;grid-template-columns:200px 1fr;gap:18px;
   background:linear-gradient(135deg,var(--accent) 0 90px, var(--card) 90px);
   border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;color:var(--text)
 }
-.avatar{width:120px;height:120px;border-radius:50%;border:5px solid #fff;object-fit:cover}
+.avatar{width:180px;height:180px;border-radius:50%;border:6px solid #fff;object-fit:cover}
 .hero h1{margin:.25rem 0 0;font-size:1.95rem;color:var(--accent)}
 .subtitle{margin:2px 0 10px;color:var(--muted)}
 .hero .contacts a{display:flex;align-items:center;gap:8px;color:var(--text);text-decoration:none;margin:4px 0}
