@@ -1,1 +1,13 @@
-theme: jekyll-theme-minimal
+title: Ali’s Math & Engineering Notes
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax   # keep this if you use MathJax below
+  syntax_highlighter: rouge
+
+# A collection called "topics" for your catalog pages
+collections:
+  topics:
+    output: true           # generate one page per topic
+    permalink: /topics/:name/
+
