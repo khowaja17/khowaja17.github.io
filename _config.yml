@@ -1,13 +1,15 @@
-title: Ali’s Math & Engineering Notes
+title: Ali Hasnain Khowaja
+description: Aerospace Engineer
 markdown: kramdown
 kramdown:
   input: GFM
-  math_engine: mathjax   # keep this if you use MathJax below
-  syntax_highlighter: rouge
+  math_engine: mathjax
 
-# A collection called "topics" for your catalog pages
+# Collections
 collections:
-  topics:
-    output: true           # generate one page per topic
-    permalink: /topics/:name/
-
+  primer:            # <-- renamed from 'topics'
+    output: true
+    permalink: /primer/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
