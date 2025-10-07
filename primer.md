@@ -27,4 +27,8 @@ permalink: /primer/
     <h3><a href="{{ '/primer/optimization/' | relative_url }}">Optimization</a></h3>
     <p>Convexity, gradients, constraints, LQR as optimization…</p>
   </div>
+  <div class="card">
+    <h3><a href="{{ '/primer/celestial-mechanics/' | relative_url }}">Celestial Mechanics</a></h3>
+    <p>Orbital elements, two-body problem, restricted three-body problem, transfer orbits…</p>
+  </div>
 </div>
