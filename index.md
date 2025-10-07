@@ -12,7 +12,7 @@ layout: default
     <h1>Ali Hasnain Khowaja</h1>
     <div class="subtitle">Aerospace Engineer • Guidance, Navigation & Control</div>
     <div class="contacts">
-      <a href="tel:+17702356937"><i class="fa-solid fa-phone"></i> 770-235-6937</a>
+      <a href="tel:+14045796164"><i class="fa-solid fa-phone"></i> 404-579-6164</a>
       <a href="mailto:alikhowaja17@gmail.com"><i class="fa-solid fa-envelope"></i> alikhowaja17@gmail.com</a>
       <a href="https://linkedin.com/in/alikhowaja/"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/alikhowaja/</a>
     </div>
