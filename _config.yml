@@ -13,3 +13,23 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope: { path: "_primer/linear-algebra", type: "primer" }
+    values: { category: "Linear Algebra" }
+
+  - scope: { path: "_primer/dynamics", type: "primer" }
+    values: { category: "Dynamic Systems" }
+
+  - scope: { path: "_primer/estimation", type: "primer" }
+    values: { category: "Estimation of Dynamic Systems" }
+
+  - scope: { path: "_primer/optimization", type: "primer" }
+    values: { category: "Optimization" }
+
+  - scope: { path: "_primer/control", type: "primer" }
+    values: { category: "Control of Dynamic Systems" }
+
+  - scope: { path: "_primer/celestial-mechanics", type: "primer" }
+    values: { category: "Celestial Mechanics" }
