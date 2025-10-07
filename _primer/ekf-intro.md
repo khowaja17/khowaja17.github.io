@@ -1,6 +1,7 @@
 ---
 title: EKF Intuition for Relative Navigation
 layout: primer_item
+category: Estimation of Dynamic Systems
 youtube_id: kAbCdEfGh12   # replace
 ---
 
