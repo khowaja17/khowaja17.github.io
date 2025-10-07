@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="section">
+  <h1>{{ page.title }}</h1>
+  {% assign cat = page.category %}
+  {% assign items = site.primer | where: "category", cat | sort: "title" %}
+
+  {% if items and items != empty %}
+    <ul>
+      {% for p in items %}
+        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No notes yet in this section.</p>
+  {% endif %}
+  <p style="margin-top:16px"><a href="{{ '/primer/' | relative_url }}">← Back to Primer</a></p>
+</div>
