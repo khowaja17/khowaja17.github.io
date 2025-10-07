@@ -9,7 +9,7 @@ kramdown:
 collections:
   primer:            # <-- renamed from 'topics'
     output: true
-    permalink: /primer/:name/
+    permalink: /primer/:path/
   projects:
     output: true
     permalink: /projects/:name/
