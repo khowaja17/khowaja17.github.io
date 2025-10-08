@@ -31,3 +31,16 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-appl
 .card h3{margin:0 0 6px}
 .badges span{display:inline-block;background:#f2f2f2;border-radius:999px;padding:4px 8px;margin:4px 6px 0 0;font-size:.85rem}
 .site-footer{max-width:980px;margin:40px auto 20px;padding:0 16px;color:var(--muted)}
+/* Footnotes block */
+.footnotes { font-size: 0.95rem; color: var(--text); }
+.footnotes hr { display: none; }            /* hide the default line */
+.footnotes ol { padding-left: 1.25rem; }
+.footnotes li { margin: 0.4rem 0; }
+
+/* Hanging indent look (nice for multi-line entries) */
+.footnotes ol { list-style: decimal; }
+.footnotes li { padding-left: .5rem; text-indent: -.5rem; }
+
+/* Make the backlink subtle */
+.footnote-backref { text-decoration: none; color: var(--muted); margin-left: .25rem; }
+
