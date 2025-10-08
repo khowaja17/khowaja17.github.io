@@ -90,6 +90,8 @@ For best control, use HTML `<figure>` so you can add a caption and keep the imag
     <figcaption><em>Figure 1.</em> Example Kalman Filter Response $K_k$</figcaption> 
 </figure>
 
+Use `<figure style="text-align: center;">` to center justify the image and the caption 
+
 ## 4) Tables with Math
 
 You can use pure Markdown tables; MathJax renders fine inside.
