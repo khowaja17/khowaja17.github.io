@@ -138,7 +138,7 @@ In text: Bar-Shalom and Li [1]
           \fill[blue] (2,1) circle (2pt);
         \end{tikzpicture}
     </script>
-    <figcaption><em>Figure 1.</em> Example Kalman Filter Response \(K_k\)</figcaption>
+    <figcaption><em>Figure 1.</em> Simple TikZ Axes and Vector Image </figcaption>
 </figure>
 
 
