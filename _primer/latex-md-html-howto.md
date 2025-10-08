@@ -127,7 +127,7 @@ In text: Bar-Shalom and Li [1]
 
 ## 8) TikZ Rendering 
 <!-- anywhere in your .md file (no backticks) -->
-<figure class="tikz-figure center">
+<figure class="tikz-figure center" style="width: 420px;">
     <script type="text/tikz">
         \begin{tikzpicture}[>=stealth]
           % axes
