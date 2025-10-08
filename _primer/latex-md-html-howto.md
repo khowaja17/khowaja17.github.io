@@ -138,9 +138,31 @@ In text: Bar-Shalom and Li [1]
           \fill[blue] (2,1) circle (2pt);
         \end{tikzpicture}
     </script>
-    <figcaption><em>Figure 1.</em> Simple TikZ Axes and Vector Image </figcaption>
+    <figcaption><em>Figure 2.</em> Simple TikZ Axes and Vector Image </figcaption>
 </figure>
 
+<figure class="tikz-figure center">
+    <script type="text/tikz">
+        \begin{tikzpicture}[auto, node distance=2.2cm, >=latex']
+          \node[draw, rounded corners, minimum width=2.2cm, minimum height=1.1cm] (sys) {$G(s)$};
+          \node[left=of sys] (in) {$u$};
+          \node[right=of sys] (out) {$y$};
+          \draw[->] (in) -- (sys);
+          \draw[->] (sys) -- (out);
+        \end{tikzpicture}
+    </script>
+    <figcaption><em>Figure 3.</em> Simple TikZ Block Diagram Image </figcaption>
+</figure>
+
+<figure class="tikz-figure center">
+    <script type="text/tikz">
+        \begin{tikzpicture}[>=latex]
+          \node[draw, rounded corners, inner sep=6pt] (ss)
+            {$\dot{x}=Ax+Bu,\quad y=Cx+Du$};
+        \end{tikzpicture}
+    </script>
+    <figcaption><em>Figure 4.</em> Simple TikZ State-Space Diagram </figcaption>
+</figure>
 
 ## References
 [^jazwinski]: A. H. Jazwinski, *Stochastic Processes and Filtering Theory*. Academic Press, 1970.  
