@@ -33,7 +33,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-appl
 .site-footer{max-width:980px;margin:40px auto 20px;padding:0 16px;color:var(--muted)}
 
 .tikz-figure { margin: 1rem 0; }
-.tikz-figure figcaption { color: var(--muted); font-size: .95rem; margin-top: .35rem; }
+.tikz-figure figcaption { color: var(--text); font-size: .95rem; margin-top: .35rem; }
 
 .tikz-figure.center {
   display: flex;
