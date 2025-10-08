@@ -127,11 +127,13 @@ In text: Bar-Shalom and Li [1]
 
 ## 8) TikZ Rendering 
 ```tikz
-\begin{tikzpicture}
-  \draw[->, thick] (0,0) -- (3,0) node[right] {$x$};
-  \draw[->, thick] (0,0) -- (0,2) node[above] {$y$};
-  \draw[very thick, red] (0,0) -- (2,1) node[midway, above] {$r$};
-  \filldraw[blue] (2,1) circle (2pt);
+\begin{tikzpicture}[>=stealth]
+  % axes
+  \draw[->,thick] (0,0) -- (3.2,0) node[right] {$x$};
+  \draw[->,thick] (0,0) -- (0,2.4) node[above] {$y$};
+  % vector
+  \draw[very thick,red] (0,0) -- (2,1) node[midway,above] {$\mathbf{r}$};
+  \fill[blue] (2,1) circle (2pt);
 \end{tikzpicture}
 ```
 
