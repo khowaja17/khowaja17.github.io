@@ -108,9 +108,9 @@ GitHub Pages doesn’t run BibTeX, so the simplest is footnotes or a manual Refe
 
 ### 6.1 Footnote citations (easy)
 
-You can cite like this1
- or this2
-, and they show at the bottom.
+This approach follows standard Kalman filtering texts[^jazwinski] and a robotics-oriented treatment[^barfoot].
+
+You can cite the same source again later[^jazwinski] without redefining it.
 
 ### 6.2 Manual references section with anchors
 
@@ -121,9 +121,10 @@ In text: Bar-Shalom and Li [1]
 ## 7) Common LaTeX snippets you’ll reuse
 
 - Argmin / argmax: $\displaystyle \hat{x} = \arg\min_x |y - Hx|_2^2.$
-
 - Expectation/variance: $\mathbb{E}[x],; \mathrm{Var}[x].$
-
 - Norms: $|x|_2,; |X|_F.$
-
 - Quaternion (scalar-first): $q = [q_w, q_x, q_y, q_z]^\top.$
+
+## References
+[^jazwinski]: A. H. Jazwinski, *Stochastic Processes and Filtering Theory*. Academic Press, 1970.  
+[^barfoot]: T. D. Barfoot, *State Estimation for Robotics*. Cambridge University Press, 2017. DOI: 10.1017/9781316671528
