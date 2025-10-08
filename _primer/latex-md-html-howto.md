@@ -13,8 +13,7 @@ This page shows common patterns you’ll use when writing notes with LaTeX, figu
 **Display math** uses double dollars:
 
 $$
-E = mc^2. 
-\tag{SS}\label{eq::ss}
+E = mc^2.
 $$
 
 **Greek, hats, tildes, bold:**
