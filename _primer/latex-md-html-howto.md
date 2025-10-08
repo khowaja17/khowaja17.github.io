@@ -126,7 +126,8 @@ In text: Bar-Shalom and Li [1]
 - Quaternion (scalar-first): $q = [q_w, q_x, q_y, q_z]^\top.$
 
 ## 8) TikZ Rendering 
-```tikz
+<!-- anywhere in your .md file (no backticks) -->
+<script type="text/tikz">
 \begin{tikzpicture}[>=stealth]
   % axes
   \draw[->,thick] (0,0) -- (3.2,0) node[right] {$x$};
@@ -135,7 +136,8 @@ In text: Bar-Shalom and Li [1]
   \draw[very thick,red] (0,0) -- (2,1) node[midway,above] {$\mathbf{r}$};
   \fill[blue] (2,1) circle (2pt);
 \end{tikzpicture}
-```
+</script>
+
 
 ## References
 [^jazwinski]: A. H. Jazwinski, *Stochastic Processes and Filtering Theory*. Academic Press, 1970.  
