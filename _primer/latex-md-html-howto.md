@@ -127,8 +127,8 @@ In text: Bar-Shalom and Li [1]
 
 ## 8) TikZ Rendering 
 <!-- anywhere in your .md file (no backticks) -->
-<figure style="text-align: center;"> 
-<script type="text/tikz">
+<figure class="tikz-figure center">
+  <script type="text/tikz">
 \begin{tikzpicture}[>=stealth]
   % axes
   \draw[->,thick] (0,0) -- (3.2,0) node[right] {$x$};
@@ -137,8 +137,8 @@ In text: Bar-Shalom and Li [1]
   \draw[very thick,red] (0,0) -- (2,1) node[midway,above] {$\mathbf{r}$};
   \fill[blue] (2,1) circle (2pt);
 \end{tikzpicture}
-</script>
-<figcaption><em>Figure 1.</em> Example Kalman Filter Response $K_k$</figcaption> 
+  </script>
+  <figcaption><em>Figure 1.</em> Example Kalman Filter Response \(K_k\)</figcaption>
 </figure>
 
 
