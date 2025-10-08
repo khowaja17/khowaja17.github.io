@@ -80,3 +80,5 @@ def k_gain(P, H, R):
     # K = P H^T (H P H^T + R)^-1
     S = H @ P @ H.T + R
     return P @ H.T @ np.linalg.inv(S)
+```
+## 3)
