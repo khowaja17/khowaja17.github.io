@@ -31,7 +31,7 @@ y_k     &= H_k x_k + v_k. \\
 \tag{SS}\label{eq:ss}
 $$
 
-From $\eqref{eq::ss}$ we derive the **Kalman gain**:
+From \eqref{eq::ss} we derive the **Kalman gain**:
 $$
 K_k = P^-_k H_k^\top \left(H_k P^-_k H_k^\top + R_k\right)^{-1}. \label{eq:K}
 $$
