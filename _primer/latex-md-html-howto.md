@@ -82,8 +82,22 @@ def k_gain(P, H, R):
     return P @ H.T @ np.linalg.inv(S)
 ```
 ## 3) Images 
+
 For best control, use HTML `<figure>` so you can add a caption and keep the image responsive.
+
 <figure style="margin:1rem 0;"> 
     <img src="{{ 'assets/primer/kalmdemo_03.png' | relative_url }}" alt="Example Kalman Filter Response" style="max-width:100%;height:auto;border-radius:12px;"> 
     <figcaption><em>Figure 1.</em> Example Kalman Filter Response $K_k$</figcaption> 
 </figure>
+
+## 4) Tables with Math
+
+You can use pure Markdown tables; MathJax renders fine inside.
+
+| Symbol | Meaning                       | Units |
+| :----: | ----------------------------- | :---: |
+|  $x_k$ | State at step $k$             |   —   |
+|  $P_k$ | State covariance at step $k$  |   —   |
+|   $R$  | Measurement noise covariance  |   —   |
+|  $K_k$ | Kalman gain from \eqref{eq:K} |   —   |
+
