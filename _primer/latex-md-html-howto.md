@@ -14,8 +14,7 @@ This page shows common patterns you’ll use when writing notes with LaTeX, figu
 
 $$
 E = mc^2. 
-
-\tag{01}\label{eq::ss}
+\tag{SS}\label{eq::ss}
 $$
 
 **Greek, hats, tildes, bold:**
