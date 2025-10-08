@@ -127,9 +127,9 @@ In text: Bar-Shalom and Li [1]
 
 ## 8) TikZ Rendering 
 <!-- anywhere in your .md file (no backticks) -->
-<figure class="tikz-figure center" style="width: 420px;">
+<figure class="tikz-figure center">
     <script type="text/tikz">
-        \begin{tikzpicture}[>=stealth]
+        \begin{tikzpicture}[scale=1.4, every node/.style={transform shape}]
           % axes
           \draw[->,thick] (0,0) -- (3.2,0) node[right] {$x$};
           \draw[->,thick] (0,0) -- (0,2.4) node[above] {$y$};
