@@ -48,24 +48,3 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-appl
   height: auto;
   max-width: 100%;
 }
-
-/* Center any TikZJax-generated SVGs */
-figure.tikz-figure { 
-  display: block;
-  text-align: center;                 /* centers inline/inline-block children */
-}
-
-figure.tikz-figure svg.tikzjax {
-  display: inline-block !important;   /* ensure it behaves like an inline box */
-  margin: 0 auto !important;          /* fallback centering */
-  height: auto;
-  max-width: 100%;
-}
-
-/* If the SVG still appears visually off-center due to asymmetric bbox,
-   wrap it (see HTML below) so the wrapper is centered exactly. */
-.tikz-center {
-  width: fit-content;
-  margin: 0 auto;                     /* perfect geometric centering */
-}
-
