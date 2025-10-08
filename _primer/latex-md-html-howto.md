@@ -22,7 +22,7 @@ $\alpha, \beta, \gamma,\; \hat{x}, \tilde{x},\; \mathbf{x},\; \boldsymbol{\Sigma
 ### 1.1 Aligned equations (with labels & references)
 
 Use `aligned` inside `equation` (or MathJax’s `\begin{aligned}...\end{aligned}` inside `$$ ... $$`) and add `\label{...}`. You can later refer with `\eqref{...}`.
-$
+\[
 \begin{equation}
     \begin{aligned}
         x_{k+1} &= F_k x_k + G_k u_k + w_k, \\
@@ -30,7 +30,7 @@ $
     \end{aligned}
     \tag{SS}\label{eq:ss}
 \end{equation}
-$
+\]
 From \eqref{eq:ss} we derive the **Kalman gain**:
 $$
 K_k = P^-_k H_k^\top \left(H_k P^-_k H_k^\top + R_k\right)^{-1}. \label{eq:K}
