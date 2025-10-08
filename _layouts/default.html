@@ -7,9 +7,16 @@
 
   <!-- MathJax for LaTeX -->
   <script>
-    window.MathJax = { tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\[','\\]']]}, svg:{fontCache:'global'} };
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        tags: 'all'   // <— enables equation numbering + \label/\eqref
+      },
+      svg: { fontCache: 'global' }
+    };
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
 
   <!-- Icons (optional) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
