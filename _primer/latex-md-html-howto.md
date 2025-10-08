@@ -126,14 +126,14 @@ In text: Bar-Shalom and Li [1]
 - Quaternion (scalar-first): $q = [q_w, q_x, q_y, q_z]^\top.$
 
 ## 8) TikZ Rendering 
-$$
+```tikz
 \begin{tikzpicture}
   \draw[->, thick] (0,0) -- (3,0) node[right] {$x$};
   \draw[->, thick] (0,0) -- (0,2) node[above] {$y$};
   \draw[very thick, red] (0,0) -- (2,1) node[midway, above] {$r$};
   \filldraw[blue] (2,1) circle (2pt);
 \end{tikzpicture}
-$$
+```
 
 ## References
 [^jazwinski]: A. H. Jazwinski, *Stochastic Processes and Filtering Theory*. Academic Press, 1970.  
