@@ -81,4 +81,9 @@ def k_gain(P, H, R):
     S = H @ P @ H.T + R
     return P @ H.T @ np.linalg.inv(S)
 ```
-## 3)
+## 3) Images 
+For best control, use HTML `<figure>` so you can add a caption and keep the image responsive.
+<figure style="margin:1rem 0;"> 
+    <img src="{{ 'assets/primer/kalmdemo_03.png' | relative_url }}" alt="Example Kalman Filter Response" style="max-width:100%;height:auto;border-radius:12px;"> 
+    <figcaption><em>Figure 1.</em> Example Kalman Filter Response $K_k$</figcaption> 
+</figure>
