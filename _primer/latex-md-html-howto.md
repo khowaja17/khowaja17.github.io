@@ -96,10 +96,12 @@ Use `<figure style="text-align: center;">` to center justify the image and the c
 
 You can use pure Markdown tables; MathJax renders fine inside.
 <center>
+    
 | Symbol | Meaning                       | Units |
 | :----: | ----------------------------- | :---: |
 |  $x_k$ | State at step $k$             |   —   |
 |  $P_k$ | State covariance at step $k$  |   —   |
 |   $R$  | Measurement noise covariance  |   —   |
 |  $K_k$ | Kalman gain from \eqref{eq:K} |   —   |
+
 </center>
