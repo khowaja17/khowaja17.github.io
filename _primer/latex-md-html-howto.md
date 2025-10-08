@@ -17,7 +17,7 @@ E = mc^2.
 $$
 
 **Greek, hats, tildes, bold:**
-$ \alpha, \beta, \gamma,\; \hat{x}, \tilde{x},\; \mathbf{x},\; \boldsymbol{\Sigma}.$
+$\alpha, \beta, \gamma,\; \hat{x}, \tilde{x},\; \mathbf{x},\; \boldsymbol{\Sigma}.$
 
 ### 1.1 Aligned equations (with labels & references)
 
