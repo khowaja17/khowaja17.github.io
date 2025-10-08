@@ -32,3 +32,19 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-appl
 .badges span{display:inline-block;background:#f2f2f2;border-radius:999px;padding:4px 8px;margin:4px 6px 0 0;font-size:.85rem}
 .site-footer{max-width:980px;margin:40px auto 20px;padding:0 16px;color:var(--muted)}
 
+.tikz-figure { margin: 1rem 0; }
+.tikz-figure figcaption { color: var(--muted); font-size: .95rem; margin-top: .35rem; }
+
+.tikz-figure.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* centers the SVG TikZJax inserts */
+}
+
+/* make the SVG responsive and centered */
+.tikz-figure.center svg {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
