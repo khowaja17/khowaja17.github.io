@@ -156,7 +156,7 @@ In text: Bar-Shalom and Li [1]
 
 <figure class="tikz-figure center">
     <script type="text/tikz">
-        \begin{tikzpicture}[scale=1.4, every node/.style={transform shape}, >=latex]
+        \begin{tikzpicture}[>=latex]
           \node[draw, rounded corners, inner sep=6pt] (ss)
             {$\dot{x}=Ax+Bu,\quad y=Cx+Du$};
         \end{tikzpicture}
