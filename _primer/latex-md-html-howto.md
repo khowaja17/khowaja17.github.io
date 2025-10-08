@@ -22,13 +22,12 @@ $\alpha, \beta, \gamma,\; \hat{x}, \tilde{x},\; \mathbf{x},\; \boldsymbol{\Sigma
 ### 1.1 Aligned equations (with labels & references)
 
 Use `aligned` inside `equation` (or MathJax’s `\begin{aligned}...\end{aligned}` inside `$$ ... $$`) and add `\label{...}`. You can later refer with `\eqref{...}`.
-\[
-    \begin{aligned}
+$\begin{aligned}
         x_{k+1} &= F_k x_k + G_k u_k + w_k, \\
         y_k     &= H_k x_k + v_k. \\
     \end{aligned}
-    \tag{SS}\label{eq:ss}
-\]
+\tag{SS}\label{eq:ss}$
+
 From \eqref{eq:ss} we derive the **Kalman gain**:
 $$
 K_k = P^-_k H_k^\top \left(H_k P^-_k H_k^\top + R_k\right)^{-1}. \label{eq:K}
