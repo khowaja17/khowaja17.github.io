@@ -143,7 +143,7 @@ In text: Bar-Shalom and Li [1]
 
 <figure class="tikz-figure center">
     <script type="text/tikz">
-        \begin{tikzpicture}[auto, node distance=2.2cm, >=latex']
+        \begin{tikzpicture}[auto, node distance=2.2cm, >=latex',scale=1.4, every node/.style={transform shape}]
           \node[draw, rounded corners, minimum width=2.2cm, minimum height=1.1cm] (sys) {$G(s)$};
           \node[left=of sys] (in) {$u$};
           \node[right=of sys] (out) {$y$};
@@ -151,12 +151,12 @@ In text: Bar-Shalom and Li [1]
           \draw[->] (sys) -- (out);
         \end{tikzpicture}
     </script>
-    <figcaption><em>Figure 3.</em> Simple TikZ Block Diagram Image </figcaption>
+    <figcaption><em>Figure 3.</em> Simple TikZ Block Diagram </figcaption>
 </figure>
 
 <figure class="tikz-figure center">
     <script type="text/tikz">
-        \begin{tikzpicture}[>=latex]
+        \begin{tikzpicture}[>=latex,scale=1.4, every node/.style={transform shape}]
           \node[draw, rounded corners, inner sep=6pt] (ss)
             {$\dot{x}=Ax+Bu,\quad y=Cx+Du$};
         \end{tikzpicture}
