@@ -4,6 +4,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
+  footnote_nr: 1            # start numbering at 1
+  footnote_backlinks: true  # ↩ links back to where it was cited
   syntax_highlighter: rouge
 highlighter: rouge
 
