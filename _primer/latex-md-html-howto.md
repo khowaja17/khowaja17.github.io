@@ -14,7 +14,7 @@ This page shows common patterns you’ll use when writing notes with LaTeX, figu
 
 $$
 E = mc^2
-\tag{01}\label{eq::ss}
+\tag{}\label{eq::ss}
 $$
 
 **Greek, hats, tildes, bold:**
@@ -31,7 +31,7 @@ y_k     &= H_k x_k + v_k. \\
 \end{aligned}
 $$
 
-From \eqref{eq::SS} we derive the **Kalman gain**:
+From \eqref{eq::ss} we derive the **Kalman gain**:
 $$
 K_k = P^-_k H_k^\top \left(H_k P^-_k H_k^\top + R_k\right)^{-1}. \label{eq:K}
 $$
