@@ -45,7 +45,8 @@ Notation:
     </script>
     <figcaption><em>Figure 1.</em> Cartesian Coordinate System </figcaption>
 </figure>
-$\hat{ \[ \ \] }$ : Denotes a unit vector (i.e $||\hat{ \[ \] } ||_2 = 1$ ). The coordinate system is defined with the following expression
+The coordinate system is defined with the following expression
 $$
 \mathcal{N} = \{ O_N , \hat{\mathbf n}_1, \hat{\mathbf n}_2, \hat{\mathbf n}_3 \}
 $$
+where $\hat{\mathbf x}$ denotes a unit vector (i.e $||\hat{\mathbf x} ||_2 = 1$ ).
