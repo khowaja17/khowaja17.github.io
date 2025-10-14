@@ -47,11 +47,11 @@ Notation:
 </figure>
 The coordinate system is defined with the following expression
 $$
-\mathcal{N} = \{ O_N , \hat{\mathbf n}_1, \hat{\mathbf n}_2, \hat{\mathbf n}_3 \}
+\mathcal{N} = \{ O , \hat{\mathbf n}_1, \hat{\mathbf n}_2, \hat{\mathbf n}_3 \}
 $$
 where $\hat{\mathbf x}$ denotes a unit vector (i.e $||\hat{\mathbf x} ||_2 = 1$ ).
 
-Now we may introduce a particle $P$ 
+Now we may introduce a particle $P$ where the position is defined by the vector $\mathbf{r} = \overline{OP}$ which is the vector pointing from $O$ to $P$.
 <figure class="tikz-figure center">
     <script type="text/tikz">
         \begin{tikzpicture}[>=stealth, line cap=round, line join=round, thick, scale=1.4]
@@ -76,8 +76,8 @@ Now we may introduce a particle $P$
         \draw[->] (O) -- ($(O)+2.6*(e3)$) node[above left=3pt]  {$\hat{\mathbf n}_3$};
         \draw[->] (O) -- ($(O)+2.6*(e1)$) node[below left=3pt]  {$\hat{\mathbf n}_1$};
         % ------------------ projections (dashed) --------------------------
-        \draw[densely dashed] (O) -- (Px) node[midway,below] {$x$};
-        \draw[densely dashed] (Px) -- (Pxy) node[midway,sloped,below] {$y$};
+        \draw[densely dashed] (O) -- (Px) node[midway,below] {$y$};
+        \draw[densely dashed] (Px) -- (Pxy) node[midway,sloped,below] {$x$};
         \draw[densely dashed] (Pxy) -- (P) node[midway,right] {$z$};
         % ------------------ position vector and point ---------------------
         \draw[very thick,blue,->] (O) -- (P) node[midway,above] {$\mathbf r$};
