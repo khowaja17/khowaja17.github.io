@@ -8,8 +8,10 @@ youtube_id: kAbCdEfGh12   # replace
 The study of kinematics is the matter of describing the motion of a particle without concern for it's mass or inertia. To understand motion, we must understand the position, velocity, and acceleration, that is, where and how a system is moving through space. The study of motion necessitates a frame of reference, also known as coordinate system. 
 
 A coordinate system is defined by 
-1.) An origin (point)
-2.) An orientation (orthogonal coordinate axis components
+
+  1.) An origin (point)
+
+  2.) An orientation (orthogonal coordinate axis components
 
 Common coordinate systems include:
 - Cartesian
