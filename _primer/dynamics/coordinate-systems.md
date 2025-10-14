@@ -45,4 +45,4 @@ Notation:
     </script>
     <figcaption><em>Figure 1.</em> Cartesian Coordinate System </figcaption>
 </figure>
-$\hat{ \[ \] }$ : Denotes 
+$\hat{ \[ \ \] }$ : Denotes a unit vector (i.e $|\hat{ \[ \] } |_2 = 1$ )
