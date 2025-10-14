@@ -56,8 +56,8 @@ Now we may introduce a particle $P$ where the position is defined by the vector 
     <script type="text/tikz">
         \begin{tikzpicture}[>=stealth, line cap=round, line join=round, thick, scale=1.4]
         % ------------------ parameters: coordinates of P ------------------
-        \def\X{3.0}   % x along \hat n_2  (to the right)
-        \def\Y{1.4}   % y along \hat n_1  (down-left direction)
+        \def\X{1.4}   % x along \hat n_1  (to the right)
+        \def\Y{3.0}   % y along \hat n_2  (down-left direction)
         \def\Z{1.6}   % z along \hat n_3  (up)
         % ------------------ basis directions (2D oblique projection) -----
         \coordinate (O)  at (0,0);
