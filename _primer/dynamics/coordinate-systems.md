@@ -91,3 +91,4 @@ $\mathbf{r}$ is orthogonally projected into the $\mathcal{N}$-frame's coordinate
 $\mathbf{r} = x \hat{\mathbf n}_1 + y \hat{\mathbf n}_2 + z \hat{\mathbf n}_3$. In this vector equation the ($\hat{\mathbf n}_1, \hat{\mathbf n}_2, \hat{\mathbf n}_3$) describe direction and ($x,y,z$) describe magnitude. 
 
 Note: $\mathbf{r}$ is explicitly not expressed in any reference frame and the vector equation elements $\mathbf{r}$, $\hat{\mathbf n}_3$ are simply entities with a particular magnitude and direction in 3D space. 
+As a result, $$\mathbf r = x \hat{\mathbf n}_1 + a \hat{\mathbf e}_1 }$$ is a valid vector equation. However, once we assign a reference frame to $\mathbf{r}$ like $\mathbf{r}^N$ then $\mathbf{r}^N \neq x \hat{\mathbf n}_1 + a \hat{\mathbf{e}}_1$. More generally $\mathbf{q} = \mathbf{r} + \mathbf{p}$, but $\mathbf{q}^N = \mathbf{r}^N + \mathbf{p}^E$ is not.   
