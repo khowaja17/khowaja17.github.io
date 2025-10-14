@@ -45,3 +45,4 @@ Notation:
     </script>
     <figcaption><em>Figure 1.</em> Cartesian Coordinate System </figcaption>
 </figure>
+$\hat{ \[ \] }$ : Denotes 
