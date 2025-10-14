@@ -66,6 +66,7 @@ Now we may introduce a particle $P$ where the position is defined by the vector 
         \coordinate (e1) at (-0.75,-0.48);% \hat n_1  (gives 3-D look)
         % Point and its projections
         \coordinate (Px)   at ($(O)+\X*(e1)$);
+        \coordinate (Py)   at ($(O)+\Y*(e2)$);
         \coordinate (Pxy)  at ($(O)+\X*(e1)+\Y*(e2)$);
         \coordinate (P)    at ($(Pxy)+\Z*(e3)$);
         % ------------------ frame label and origin ------------------------
@@ -76,8 +77,8 @@ Now we may introduce a particle $P$ where the position is defined by the vector 
         \draw[->] (O) -- ($(O)+2.6*(e3)$) node[above left=3pt]  {$\hat{\mathbf n}_3$};
         \draw[->] (O) -- ($(O)+2.6*(e1)$) node[below left=3pt]  {$\hat{\mathbf n}_1$};
         % ------------------ projections (dashed) --------------------------
-        \draw[densely dashed] (O) -- (Px) node[midway,below] {$x$};
-        \draw[densely dashed] (Px) -- (Pxy) node[midway,sloped,below] {$y$};
+        \draw[densely dashed] (Px) -- (Pxy) node[midway,below] {$x$};
+        \draw[densely dashed] (Py) -- (Pxy) node[midway,sloped,below] {$y$};
         \draw[densely dashed] (Pxy) -- (P) node[midway,right] {$z$};
         % ------------------ position vector and point ---------------------
         \draw[very thick,blue,->] (O) -- (P) node[midway,above] {$\mathbf r$};
