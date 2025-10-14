@@ -24,7 +24,7 @@ Common coordinate systems include:
 
 Theoretically there are an infinite set of coordinate systems and furthermore infinite number of ways to parameterize a vector in orthogonal coordinate axis components. Furthermore, there is no incorrect choice of coordinate system just one that makes it easier to study the system.
 
-Notation:
+## Notation
 
 <figure class="tikz-figure center">
     <script type="text/tikz">
