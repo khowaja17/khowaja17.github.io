@@ -10,7 +10,7 @@ layout: default
   alt="Ali Hasnain Khowaja"/>
   <div>
     <h1>Ali Hasnain Khowaja</h1>
-    <div class="subtitle">Aerospace Engineer • Guidance, Navigation & Control</div>
+    <div class="subtitle">Aerospace Engineer • Ph.D Graduate Student • Guidance, Navigation & Control</div>
     <div class="contacts">
       <a href="tel:+14045796164"><i class="fa-solid fa-phone"></i> 404-579-6164</a>
       <a href="mailto:alikhowaja17@gmail.com"><i class="fa-solid fa-envelope"></i> alikhowaja17@gmail.com</a>
@@ -21,7 +21,7 @@ layout: default
 
 <div class="section">
   <h2>About Me</h2>
-  <p>I’m an aerospace engineer focused on guidance, navigation, and control for autonomous systems. I’m a SMART scholar on contract with NAVAIR after graduation. In my free time I cook, play sports, and make music.</p>
+  <p>I’m an aerospace engineer focused on guidance, navigation, and control for autonomous systems. I am currently pursuing my Ph.D graduate degree in aerospace engineering as a SMART scholar. In my free time I cook, play sports, and make music.</p>
 </div>
 
 <div class="section">
