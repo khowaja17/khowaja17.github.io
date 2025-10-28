@@ -21,7 +21,7 @@ layout: default
 
 <div class="section">
   <h2>About Me</h2>
-  <p>I’m an aerospace engineer focused on guidance, navigation, and control for autonomous systems. I am currently pursuing my Ph.D graduate degree in aerospace engineering as a SMART scholar. In my free time I cook, play sports, and make music.</p>
+  <p>I’m an aerospace engineer focused on guidance, navigation, and control for autonomous systems. I am currently pursuing my Ph.D graduate degree in aerospace engineering as a SMART scholar. I am also the owner and founder of Paradigm Prints, a 3D printing company, that specializes in custom prints, design consultations, and STEM outreach. In my free time I cook, play sports, and make music.</p>
 </div>
 
 <div class="section">
